@@ -1,6 +1,6 @@
 /**
+ * 老虎集团
  * localStorage 设置过期时间
- *
  * lscache.get(key); // xx
  * lscache.set(key, value, expire);
  * lscache.remove(key);
