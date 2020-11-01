@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webCode/faceCode/classNames.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webCode/faceCode/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/array/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/array/plusOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +56,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.plusOne.js">
+    <configuration name="pinduoduo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/pinduoduo.js" working-dir="$PROJECT_DIR$/91Day/array">
+      <method v="2" />
+    </configuration>
+    <configuration name="plusOne.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/plusOne.js" working-dir="$PROJECT_DIR$/91Day/array">
+      <method v="2" />
+    </configuration>
     <configuration name="storage.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/webCode/faceCode/storage.js" working-dir="$PROJECT_DIR$/webCode/faceCode">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.plusOne.js" />
+        <item itemvalue="Node.js.pinduoduo.js" />
         <item itemvalue="Node.js.storage.js" />
       </list>
     </recent_temporary>
@@ -78,7 +82,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603972690302</updated>
-      <workItem from="1603972691672" duration="8067000" />
+      <workItem from="1603972691672" duration="8132000" />
+      <workItem from="1604159661999" duration="3225000" />
+      <workItem from="1604223105762" duration="619000" />
+      <workItem from="1604241777132" duration="1920000" />
     </task>
     <servers />
   </component>
@@ -95,23 +102,72 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="656" height="217" key="GridCell.Tab.0.bottom" timestamp="1603983251402">
+    <state width="1168" height="217" key="GridCell.Tab.0.bottom" timestamp="1604245518605">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="656" height="217" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1603983251402" />
-    <state width="656" height="217" key="GridCell.Tab.0.center" timestamp="1603983251401">
+    <state width="1168" height="217" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604245518605" />
+    <state width="1168" height="217" key="GridCell.Tab.0.center" timestamp="1604245518604">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="656" height="217" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1603983251401" />
-    <state width="656" height="217" key="GridCell.Tab.0.left" timestamp="1603983251400">
+    <state width="1168" height="217" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604245518604" />
+    <state width="1168" height="217" key="GridCell.Tab.0.left" timestamp="1604245518604">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="656" height="217" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1603983251400" />
-    <state width="656" height="217" key="GridCell.Tab.0.right" timestamp="1603983251401">
+    <state width="1168" height="217" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604245518604" />
+    <state width="1168" height="217" key="GridCell.Tab.0.right" timestamp="1604245518605">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="656" height="217" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1603983251401" />
+    <state width="1168" height="217" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604245518605" />
+    <state width="656" height="270" key="GridCell.Tab.1.bottom" timestamp="1604163727014">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604163727014" />
+    <state width="656" height="270" key="GridCell.Tab.1.center" timestamp="1604163727013">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1604163727013" />
+    <state width="656" height="270" key="GridCell.Tab.1.left" timestamp="1604163727013">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1604163727013" />
+    <state width="656" height="270" key="GridCell.Tab.1.right" timestamp="1604163727013">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1604163727013" />
+    <state width="656" height="270" key="GridCell.Tab.2.bottom" timestamp="1604163727014">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.2.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604163727014" />
+    <state width="656" height="270" key="GridCell.Tab.2.center" timestamp="1604163727014">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.2.center/0.23.1440.837@0.23.1440.837" timestamp="1604163727014" />
+    <state width="656" height="270" key="GridCell.Tab.2.left" timestamp="1604163727014">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.2.left/0.23.1440.837@0.23.1440.837" timestamp="1604163727014" />
+    <state width="656" height="270" key="GridCell.Tab.2.right" timestamp="1604163727014">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.2.right/0.23.1440.837@0.23.1440.837" timestamp="1604163727014" />
+    <state width="656" height="270" key="GridCell.Tab.3.bottom" timestamp="1604163727015">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.3.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604163727015" />
+    <state width="656" height="270" key="GridCell.Tab.3.center" timestamp="1604163727015">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.3.center/0.23.1440.837@0.23.1440.837" timestamp="1604163727015" />
+    <state width="656" height="270" key="GridCell.Tab.3.left" timestamp="1604163727015">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.3.left/0.23.1440.837@0.23.1440.837" timestamp="1604163727015" />
+    <state width="656" height="270" key="GridCell.Tab.3.right" timestamp="1604163727015">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="656" height="270" key="GridCell.Tab.3.right/0.23.1440.837@0.23.1440.837" timestamp="1604163727015" />
   </component>
 </project>
