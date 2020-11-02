@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="" />
+    <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/91Day/array/shortestToChar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91Day/array/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/91Day/array/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +56,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.plusOne.js">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webCode/faceCode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.shortestToChar.js">
     <configuration name="pinduoduo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/pinduoduo.js" working-dir="$PROJECT_DIR$/91Day/array">
       <method v="2" />
     </configuration>
     <configuration name="plusOne.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/plusOne.js" working-dir="$PROJECT_DIR$/91Day/array">
+      <method v="2" />
+    </configuration>
+    <configuration name="shortestToChar.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/shortestToChar.js" working-dir="$PROJECT_DIR$/91Day/array">
       <method v="2" />
     </configuration>
     <configuration name="storage.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/webCode/faceCode/storage.js" working-dir="$PROJECT_DIR$/webCode/faceCode">
@@ -64,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.shortestToChar.js" />
         <item itemvalue="Node.js.plusOne.js" />
         <item itemvalue="Node.js.pinduoduo.js" />
         <item itemvalue="Node.js.storage.js" />
@@ -82,7 +95,8 @@
       <workItem from="1604159661999" duration="3225000" />
       <workItem from="1604223105762" duration="619000" />
       <workItem from="1604241777132" duration="1920000" />
-      <workItem from="1604245862431" duration="273000" />
+      <workItem from="1604245862431" duration="637000" />
+      <workItem from="1604327423891" duration="3599000" />
     </task>
     <servers />
   </component>
@@ -102,22 +116,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1168" height="217" key="GridCell.Tab.0.bottom" timestamp="1604245518605">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1419" height="217" key="GridCell.Tab.0.bottom" timestamp="1604331514095">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1168" height="217" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604245518605" />
-    <state width="1168" height="217" key="GridCell.Tab.0.center" timestamp="1604245518604">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604331514095" />
+    <state width="699" height="217" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604330560639" />
+    <state width="1419" height="217" key="GridCell.Tab.0.center" timestamp="1604331514094">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1168" height="217" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604245518604" />
-    <state width="1168" height="217" key="GridCell.Tab.0.left" timestamp="1604245518604">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604331514094" />
+    <state width="699" height="217" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604330560639" />
+    <state width="1419" height="217" key="GridCell.Tab.0.left" timestamp="1604331514093">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1168" height="217" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604245518604" />
-    <state width="1168" height="217" key="GridCell.Tab.0.right" timestamp="1604245518605">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604331514093" />
+    <state width="699" height="217" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604330560638" />
+    <state width="1419" height="217" key="GridCell.Tab.0.right" timestamp="1604331514094">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1168" height="217" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604245518605" />
+    <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604331514094" />
+    <state width="699" height="217" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604330560639" />
     <state width="656" height="270" key="GridCell.Tab.1.bottom" timestamp="1604163727014">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
