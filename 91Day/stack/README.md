@@ -60,6 +60,8 @@ CustomStack.prototype.increment = function(k, val) {
 * push方法：O(1)<br/>
 * pop方法：O(1)<br/>
 * increment方法：O(n)，n为栈数组长度或者k的大小<br/>
+
 空间复杂度：O(n),开辟了新的数组
 > 纪念第一次过100% 😺
+>
 ![image-20201103233858505](https://tva1.sinaimg.cn/large/0081Kckwly1gkcetraoi0j30z60cq0u8.jpg)
