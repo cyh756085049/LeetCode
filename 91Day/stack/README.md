@@ -65,3 +65,40 @@ CustomStack.prototype.increment = function(k, val) {
 > 纪念第一次过100% 😺
 >
 ![image-20201103233858505](https://tva1.sinaimg.cn/large/0081Kckwly1gkcetraoi0j30z60cq0u8.jpg)
+
+### [394. 字符串解码](https://leetcode-cn.com/problems/decode-string/)
+#### 思路
+* 使用辅助栈来实现。由内向外，一层一层解决[]，遇到数字，读取数字，遇到`[`，让字符串进入栈等待，完成进栈后，清零，倍数进入栈等待，
+完成进栈后清零；遇到 `]`后，两个栈顶出栈，获取重复次数，遇到字母，追加到字符串
+#### 代码
+```js
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var decodeString = function(s) {
+    let numStack = [];
+    let strStack = [];
+    let num = 0;
+    let res = '';
+    for (const char of s) {
+        if (!isNaN(char)) {
+            num = num * 10 + Number(char);
+        } else if (char === '[') {
+            strStack.push(res);
+            res = '';
+            numStack.push(num);
+            num = 0;
+        } else if (char === ']') {
+            let repeat = numStack.pop();
+            res = strStack.pop() + res.repeat(repeat);
+        } else {
+            res += char;
+        }
+    }
+    return res;
+};
+```
+#### 复杂度
+时间复杂度：O(n)，n为数组长度<br/>
+空间复杂度：O(n),开辟了新的数组
