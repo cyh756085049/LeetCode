@@ -36,4 +36,47 @@ var swapPairs = function(head) {
 #### 复杂度
 时间复杂度：O(n)<br/>
 空间复杂度：O(1)
+### [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
+#### 思路
+快慢指针：
+* 首先让快慢指针都等于头节点，然后先让快指针走k步
+* 然后当快慢指针相等时，说明k可以被链表长度整除，直接返回head
+* 然后快慢指针同时移动，当快指针到达链表的最后一项时，将其下一节点指向head，慢指针处于链表处于需要拆分的位置
+#### 代码
+```js
+/**
+ * Definition for singly-linked list.
+ */
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+/**
+ * @param {ListNode} head
+ * @param {number} k
+ * @return {ListNode}
+ */
+var rotateRight = function (head, k) {
+    let fast =  head, slow = head;
+    while(k--) {
+        if (fast && fast.next) {
+            fast = fast.next;
+        } else {
+            fast = head;
+        }
+    }
+    if (slow === fast) return head;
+    while (fast.next) {
+        fast = fast.next;
+        slow = slow.next;
+    }
+    fast.next = head;
+    head = slow.next;
+    slow.next = null;
+    return head;
+}
+```
+#### 复杂度
+时间复杂度：O(n)<br/>
+空间复杂度：O(1)
 
