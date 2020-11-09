@@ -79,4 +79,32 @@ var rotateRight = function (head, k) {
 #### 复杂度
 时间复杂度：O(n)<br/>
 空间复杂度：O(1)
+### [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
+#### 思路
+快慢指针：首先使用快慢指针，找到中间点，然后使用分治的思路去处理中间点的左右两边。
+#### 代码
+```js
+var sortedListToBST = function(head) {
+    return makeTree(head, null);
+};
+
+function makeTree(head, tail) {
+    if(head === tail) return null;
+    let p1 = head, p2 = head;
+    while (p2 !== tail) {
+        p2 = p2.next;
+        if(p2 !== tail) {
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+    }
+    let treeNode = new TreeNode(p1.val);
+    treeNode.left = makeTree(head, p1);
+    treeNode.right = makeTree(p1.next, tail);
+    return treeNode;
+}
+```
+#### 复杂度
+时间复杂度：O(n)<br/>
+空间复杂度：O(1og(n))
 
