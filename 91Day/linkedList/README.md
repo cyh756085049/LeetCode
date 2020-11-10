@@ -107,4 +107,22 @@ function makeTree(head, tail) {
 #### 复杂度
 时间复杂度：O(n)<br/>
 空间复杂度：O(1og(n))
+### [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+#### 思路
+设定两个指针分别指向两个链表的头部，一起向前走直到其中一个到达末端，另一个与末端的距离就是两个链表的长度差，
+再通过长链表指针先走的方式消除长度差，最终两链表即可同时走到相交点。
+#### 代码
+```js
+var getIntersectionNode = function(headA, headB) {
+    pA = headA, pB = headB;
+    while(pA !== pB) {
+        pA = pA !== null ? pA.next : headB;
+        pB = pB !== null ? pB.next : headA;
+    }
+    return pA;
+};
+```
+#### 复杂度
+时间复杂度：O(m+n)<br/>
+空间复杂度：O(1)
 
