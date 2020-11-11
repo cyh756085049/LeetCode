@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/91Day/linkedList/getIntersectionNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/linkedList/detectCycle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/91Day/linkedList/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/91Day/linkedList/README.md" afterDir="false" />
     </list>
@@ -108,7 +108,8 @@
       <workItem from="1604764013170" duration="2650000" />
       <workItem from="1604847877544" duration="1453000" />
       <workItem from="1604937321219" duration="1230000" />
-      <workItem from="1605019754137" duration="906000" />
+      <workItem from="1605019754137" duration="1105000" />
+      <workItem from="1605097469103" duration="841000" />
     </task>
     <servers />
   </component>

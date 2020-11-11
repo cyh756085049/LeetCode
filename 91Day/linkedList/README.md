@@ -79,7 +79,7 @@ var rotateRight = function (head, k) {
 #### 复杂度
 时间复杂度：O(n)<br/>
 空间复杂度：O(1)
-### [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
+### [109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
 #### 思路
 快慢指针：首先使用快慢指针，找到中间点，然后使用分治的思路去处理中间点的左右两边。
 #### 代码
@@ -125,4 +125,41 @@ var getIntersectionNode = function(headA, headB) {
 #### 复杂度
 时间复杂度：O(m+n)<br/>
 空间复杂度：O(1)
+### [142. 环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+#### 思路
+快慢指针：首先设置快慢指针都为head,然后遍历，快指针每次走两步，慢指针每次走一步，当快慢指针相等时，跳出循环，
+然后让快指针回到头节点，设置为head,然后再次循环并判断快慢指针是否相等，如果不等，则快慢指针都向前走一步，如
+过相等，则跳出循环，最后返回fast。
+#### 代码
+```js
+/**
+ * Definition for singly-linked list.
+ */
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
 
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var detectCycle = function (head) {
+    let fast = head, slow = head;
+    while(true) {
+        if (fast == null || fast.next == null) return null;
+        fast = fast.next.next;
+        slow = slow.next;
+        if (fast === slow) break;
+    }
+    fast = head;
+    while (fast !== slow) {
+        fast = fast.next;
+        slow = slow.next;
+    }
+    return fast;
+}
+```
+#### 复杂度
+时间复杂度：O(n)
+空间复杂度：O(1)
