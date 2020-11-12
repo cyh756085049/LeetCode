@@ -163,3 +163,53 @@ var detectCycle = function (head) {
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(1)
+### [146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+#### 思路
+使用Map数据结构
+* 当get时，如果关键字存在，先delete然后set,把key放在最后；当关键字不存在时，返回-1；
+* 当put时，如果关键字存在，先delete然后set，把key放在最后；当关键字不存在时，直接set；
+当缓存容量达到上限时，先delete，使用this.map.keys().next().value得到第一个放入的key,然后set。
+#### 代码
+```js
+/**
+ * @param {number} capacity
+ */
+var LRUCache = function(capacity) {
+    this.capacity = capacity;
+    this.map = new Map();
+};
+
+/**
+ * @param {number} key
+ * @return {number}
+ */
+LRUCache.prototype.get = function(key) {
+    if (this.map.has(key)) {
+        let val = this.map.get(key);
+        this.map.delete(key);
+        this.map.set(key, val);
+        return val;
+    }
+    return -1;
+};
+
+/**
+ * @param {number} key
+ * @param {number} value
+ * @return {void}
+ */
+LRUCache.prototype.put = function(key, value) {
+    if (this.map.has(key)) {
+        this.map.delete(key);
+        this.map.set(key, value);
+    } else if (!this.map.has(key) && this.map.size < this.capacity) {
+        this.map.set(key, value);
+    } else if (this.map.size >= this.capacity) {
+        this.map.delete(this.map.keys().next().value);
+        this.map.set(key, value);
+    }
+};
+```
+#### 复杂度
+时间复杂度：get:O(1),put:O(1)
+空间复杂度：get:O(n),put:O(n), n为capacity容量
