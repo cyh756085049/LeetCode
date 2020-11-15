@@ -62,18 +62,39 @@ var isSameTree = function(p, q) {
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(n)
-
-
-### []()
+### [129. 求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 #### 思路
-
+深度优先遍历：从根节点开始，遍历每个节点，如果遇到叶子节点，则将叶子节点对应的数字加到数字之和。
+如果当前节点不是叶子节点，则计算其子节点对应的数字，然后对子节点递归遍历。
 #### 代码
 ```js
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+var sumNumbers = function(root) {
+    return helper(root, 0);
+};
 
+function helper(root, curVal) {
+    if(root == null) return 0;
+    curVal = curVal * 10 + root.val;
+    if(root.left == null && root.right == null) {
+        return curVal;
+    }
+    return helper(root.left, curVal) + helper(root.right, curVal);
+}
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(n)
+空间复杂度：O(n)
 
 
 ### []()
