@@ -95,7 +95,65 @@ function helper(root, curVal) {
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(n)
+### [513. 找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)
+#### 思路
+层序遍历：每层从右到左进行层序遍历，最后一个就是左下角的元素。
+#### 代码
+```js
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {number}
+ */
+var findBottomLeftValue = function(root) {
+    if (root == null) return 0;
+    let queue = [];
+    queue.push(root);
+    let res;
+    while(queue.length > 0) {
+        let cur = queue.shift();
+        res = cur.val;
+        if (cur.right) {
+            queue.push(cur.right);
+        }
+        if (cur.left) {
+            queue.push(cur.left);
+        }
+    }
+    return res;
+};
+```
+#### 复杂度
+时间复杂度：O(n)
+空间复杂度：O(n)
 
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
 
 ### []()
 #### 思路
