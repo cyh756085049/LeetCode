@@ -24,3 +24,61 @@ var twoSum = function(nums, target) {
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(n)
+### [215. 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)
+#### 思路
+首先对数组进行降序排序，然后遍历排序后的数组，当索引等于k - 1时，则返回该数值，即是数组中第k个最大元素。
+#### 代码
+```js
+/**
+ * @param {number[]} nums
+ * @param {number} k
+ * @return {number}
+ */
+var findKthLargest = function(nums, k) {
+    nums.sort((a, b) => b - a);
+    return nums[k - 1];
+};
+```
+#### 复杂度
+时间复杂度：O(nlog(n))
+空间复杂度：O(n)
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
