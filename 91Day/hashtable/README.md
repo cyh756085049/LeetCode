@@ -42,16 +42,38 @@ var findKthLargest = function(nums, k) {
 #### 复杂度
 时间复杂度：O(nlog(n))
 空间复杂度：O(n)
-### []()
+### [447. 回旋镖的数量](https://leetcode-cn.com/problems/number-of-boomerangs/)
 #### 思路
-
+两次循环遍历，使用哈希表记录每个点到自己的距离。
+查看有多少相同距离，只有当相同大于1时，这个时候才可以形成回旋镖。 每次新增 一个一样的距离 回旋镖新增 2n 个
 #### 代码
 ```js
-
+/**
+ * @param {number[][]} points
+ * @return {number}
+ */
+var numberOfBoomerangs = function(points) {
+    let res = 0;
+    for(let i = 0; i < points.length; i++) {
+        let map = new Map();
+        for(let j = 0; j < points.length; j++) {
+            if (i !== j) {
+                let dis = Math.pow(points[i][0] - points[j][0], 2) + Math.pow(points[i][1] - points[j][1], 2);
+                if (!map.has(dis)) {
+                    map.set(dis, 1);
+                } else {
+                    res += map.get(dis) * 2;
+                    map.set(dis, map.get(dis) + 1);
+                }
+            }
+        }
+    }
+    return res;
+};
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(n^2)
+空间复杂度：O(n^2)
 ### []()
 #### 思路
 
