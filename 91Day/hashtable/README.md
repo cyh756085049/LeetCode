@@ -74,16 +74,34 @@ var numberOfBoomerangs = function(points) {
 #### 复杂度
 时间复杂度：O(n^2)
 空间复杂度：O(n^2)
-### []()
+### [3. 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)
 #### 思路
-
+使用map数据结构，key存储字符，value存储遍历字符串的下标，定义index为无重复子串的开始下标，初始值为0，
+遍历字符串，当map中已经存在当前字符时，更新开始下标为相同字符的下一位置，更新最大长度max，将当前字符放
+入map中，最后返回max。
 #### 代码
 ```js
-
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLongestSubstring = function(s) {
+    let map = new Map();
+    let index = 0;
+    let max = 0;
+    for (let i = 0; i < s.length; i++) {
+        if (map.has(s[i])) {
+            index = Math.max(map.get(s[i]) + 1, index);
+        }
+        max = Math.max(max, i - index + 1);
+        map.set(s[i], i);
+    }
+    return max;
+};
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(n)
+空间复杂度：O(n)
 ### []()
 #### 思路
 
