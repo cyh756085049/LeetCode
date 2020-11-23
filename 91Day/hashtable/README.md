@@ -102,16 +102,42 @@ var lengthOfLongestSubstring = function(s) {
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(n)
-### []()
+### [30. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)
 #### 思路
-
+由于子串不需要考虑 words 中单词出现的顺序，并且words中可能会出现重复单词，所以不能用 set 来存储words，我们可以用map来存储words，把words中的单词作为key，单词出现的次数作为value
+循环字符串s，然后每次从字符串s中截取一段长度为 words 单词总长的字符串，然后按照单个words单词的长度，对其进行拆分成单词
+使用拆分后的单词去map中查询，如果存在，则将其 value - 1，否则表明当前字符串不符合要求，直接break跳出当前循环
+内层循环结束后，如果map所有的 value 都为0，则表明当前子字符串符合要求，将其起始索引放入结果集中
+最后返回结果集
 #### 代码
 ```js
-
+var findSubstring = function(s, words) {
+    if (!words || !words.length) return[];
+    let wordLen = words[0].length;
+    let allWordsLen = wordLen * words.length;
+    let ans = [], wordMap = {};
+    for (let w of words) {
+        wordMap[w] ? wordMap[w]++ :wordMap[w] = 1
+    }
+    for (let i = 0; i < s.length - allWordsLen + 1; i++) {
+        let wm = Object.assign({}, wordMap);
+        for (let j = i; j < i + allWordsLen - wordLen + 1; j += wordLen) {
+            let w = s.slice(j, j + wordLen);
+            if (wm[w]) {
+                wm[w]--
+            } else {
+                break;
+            }
+        }
+        if (Object.values(wm).every(n => n === 0)) ans.push(i);
+    }
+    return ans;
+};
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(mn)，m为words一个单词的长度，n为s的长度
+空间复杂度：O(m+n)，m为words一个单词的长度，n为s的长度
+> 参考：https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/solution/js-bao-li-qiu-jie-yu-hua-dong-chuang-kou-jie-fa-ji/
 ### []()
 #### 思路
 
