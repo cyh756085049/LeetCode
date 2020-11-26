@@ -68,7 +68,7 @@ function shortestToChar(S, C) {
 空间复杂度：O(n),开辟了新的数组
 ### [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
 #### 思路
-二分查找
+双指针：二分查找
 #### 代码
 ```js
 /**
@@ -93,13 +93,30 @@ var searchInsert = function(nums, target) {
 #### 复杂度
 时间复杂度：O(log(n))
 空间复杂度：O(1)
-### []()
+### [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 #### 思路
-
+双指针：已知矩阵可以看成长度为 m * n的递增数组，确定索引，使用二分查找判断。
 #### 代码
 ```js
-
+/** 
+ * @param {number[][]} matrix
+ * @param {number} target
+ * @return {boolean}
+ */
+var searchMatrix2 = function(matrix, target) {
+    if (matrix[0] === void 0) return false;
+    let m = matrix.length, n = matrix[0].length, left = 0, right = m * n - 1;
+    while (left <= right) {
+        let mid = left + (right - left >>> 1);
+        let row = parseInt(mid/n), col = mid % n;
+        let val = matrix[row][col];
+        if (val === target) return true;
+        else if (val > target) right = mid - 1;
+        else left = mid + 1
+    }
+    return false;
+};
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(log(m*n))
+空间复杂度：O(1)
