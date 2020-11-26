@@ -66,4 +66,40 @@ function shortestToChar(S, C) {
 #### 复杂度
 时间复杂度：O(n*m)，n为字符串长度,m为包含所有字符C的数组长度<br/>
 空间复杂度：O(n),开辟了新的数组
+### [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+#### 思路
+二分查找
+#### 代码
+```js
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+var searchInsert = function(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+        let middle = Math.floor(left + (right - left) / 2);
+        if (nums[middle] === target) return middle;
+        else if (nums[middle] < target) {
+            left = middle + 1;
+        } else {
+            right = middle - 1;
+        }
+    }
+    return left;
+};
+```
+#### 复杂度
+时间复杂度：O(log(n))
+空间复杂度：O(1)
+### []()
+#### 思路
 
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
