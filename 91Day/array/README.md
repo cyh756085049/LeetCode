@@ -159,16 +159,42 @@ var middleNode = function(head) {
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(1)
-### []()
+## 滑动窗口
+### [1052. 爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
 #### 思路
-
+滑动窗口：用一个长度为X的滑动窗口来遍历数组，并在这个过程中找出顾客感到满意的最大数量。
 #### 代码
 ```js
-
+/**
+ * @param {number[]} customers
+ * @param {number[]} grumpy
+ * @param {number} X
+ * @return {number}
+ */
+var maxSatisfied = function(customers, grumpy, X) {
+    let total = 0;
+    for (let i = 0; i < customers.length; i++) {
+        if (!grumpy[i]) {
+            total += customers[i];
+        }
+    }
+    let max = total;
+    for (let i = 0; i < customers.length; i++) {
+        if (i < X && grumpy[i]) {
+            total += customers[i];
+        } else {        
+            if (grumpy[i - X]) total -= customers[i - X];
+            if (grumpy[i]) total += customers[i];
+        }
+        if (total > max) max = total;
+    }
+    return max;
+};
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(n)
+空间复杂度：O(1)
+> 参考：
 ### []()
 #### 思路
 
