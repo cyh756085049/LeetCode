@@ -66,6 +66,8 @@ function shortestToChar(S, C) {
 #### 复杂度
 时间复杂度：O(n*m)，n为字符串长度,m为包含所有字符C的数组长度<br/>
 空间复杂度：O(n),开辟了新的数组
+
+## 双指针
 ### [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
 #### 思路
 双指针：二分查找
@@ -126,17 +128,64 @@ var searchMatrix2 = function(matrix, target) {
 #### 代码
 ```js
 var removeDuplicates = function(nums) {
-    let slow = 0, fast = 0;
-    while (slow < nums.length) {
-        if (nums[fast] !== nums[slow]) {
-            fast++;
-            nums[fast] = nums[slow];
+    let read = 0, write = 0;
+    while (read < nums.length) {
+        if (nums[read] !== nums[write]) {
+            write++;
+            nums[write] = nums[read];
         }
-        slow++;
+        read++;
     }
-    return fast + 1;
+    return write + 1;
 };
 ```
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(1)
+### [876. 链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+#### 思路
+双指针：使用快慢指针，快指针每次走2步，慢指针每次走1步，当快指针走到末尾的时候，慢指针刚好到达链表中间。
+#### 代码
+```js
+var middleNode = function(head) {
+    let slow = head, fast = head;
+    while (fast && fast.next) {
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    return slow;
+};
+```
+#### 复杂度
+时间复杂度：O(n)
+空间复杂度：O(1)
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
