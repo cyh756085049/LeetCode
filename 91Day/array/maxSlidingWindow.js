@@ -5,13 +5,12 @@
  * @return {number[]}
  */
 var maxSlidingWindow = function(nums, k) {
-    let tmp = [], res = [], max = -Number.MAX_VALUE;
+    let tmp = [], res = [];
     for (let i = 0,j = i + k; i < nums.length - k, j < nums.length; i++, j++) {
         tmp = nums.slice(i, j);
         let tmp_max = Math.max.apply(Math, tmp);
-        max = Math.max(max, tmp_max);
         tmp = [];
-        res.push(max);
+        res.push(tmp_max);
     }
     for (let i = nums.length - k; i < nums.length; i++) {
         tmp.push(nums[i]);
@@ -24,3 +23,4 @@ var maxSlidingWindow = function(nums, k) {
 
 console.log(maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3));
 console.log(maxSlidingWindow([1,-1], 1));
+console.log(maxSlidingWindow([5, 3, 4], 1));
