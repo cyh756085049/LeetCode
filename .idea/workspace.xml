@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="" />
+    <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91Day/array/maxSlidingWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/91Day/array/maxSlidingWindow.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/webCode/faceCode" />
@@ -57,7 +63,7 @@
       <recent name="$PROJECT_DIR$/webCode/faceCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.searchMatrix.js">
+  <component name="RunManager" selected="Node.js.maxSlidingWindow.js">
     <configuration name="customStack.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/stack/customStack.js" working-dir="$PROJECT_DIR$/91Day/stack">
       <method v="2" />
     </configuration>
@@ -67,19 +73,19 @@
     <configuration name="lengthOfLongestSubstring.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/hashtable/lengthOfLongestSubstring.js" working-dir="$PROJECT_DIR$/91Day/hashtable">
       <method v="2" />
     </configuration>
-    <configuration name="searchMatrix.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/searchMatrix.js" working-dir="$PROJECT_DIR$/91Day/array">
+    <configuration name="maxSlidingWindow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/maxSlidingWindow.js" working-dir="$PROJECT_DIR$/91Day/array">
       <method v="2" />
     </configuration>
-    <configuration name="shortestToChar.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/shortestToChar.js" working-dir="$PROJECT_DIR$/91Day/array">
+    <configuration name="searchMatrix.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/searchMatrix.js" working-dir="$PROJECT_DIR$/91Day/array">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.maxSlidingWindow.js" />
         <item itemvalue="Node.js.searchMatrix.js" />
         <item itemvalue="Node.js.lengthOfLongestSubstring.js" />
         <item itemvalue="Node.js.findKthLargest.js" />
         <item itemvalue="Node.js.customStack.js" />
-        <item itemvalue="Node.js.shortestToChar.js" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +129,9 @@
       <workItem from="1606353903297" duration="5980000" />
       <workItem from="1606578512243" duration="1490000" />
       <workItem from="1606633764160" duration="5947000" />
+      <workItem from="1606744371958" duration="493000" />
+      <workItem from="1606828653475" duration="2716000" />
+      <workItem from="1606997581269" duration="2196000" />
     </task>
     <servers />
   </component>
@@ -142,30 +151,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="805" height="306" key="GridCell.Tab.0.bottom" timestamp="1606372331416">
+    <state width="761" height="306" key="GridCell.Tab.0.bottom" timestamp="1607009739205">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604332151777" />
     <state width="699" height="270" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="805" height="306" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1606372331416" />
-    <state width="805" height="306" key="GridCell.Tab.0.center" timestamp="1606372331415">
+    <state width="761" height="306" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1607009739205" />
+    <state width="761" height="306" key="GridCell.Tab.0.center" timestamp="1607009739204">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
-    <state width="805" height="306" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1606372331415" />
-    <state width="805" height="306" key="GridCell.Tab.0.left" timestamp="1606372331415">
+    <state width="761" height="306" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1607009739204" />
+    <state width="761" height="306" key="GridCell.Tab.0.left" timestamp="1607009739204">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604332151775" />
     <state width="699" height="270" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
-    <state width="805" height="306" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1606372331415" />
-    <state width="805" height="306" key="GridCell.Tab.0.right" timestamp="1606372331415">
+    <state width="761" height="306" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1607009739204" />
+    <state width="761" height="306" key="GridCell.Tab.0.right" timestamp="1607009739205">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="805" height="306" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1606372331415" />
+    <state width="761" height="306" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1607009739205" />
     <state width="691" height="368" key="GridCell.Tab.1.bottom" timestamp="1606054130829">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
