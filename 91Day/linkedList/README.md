@@ -213,3 +213,74 @@ LRUCache.prototype.put = function(key, value) {
 #### 复杂度
 时间复杂度：get:O(1),put:O(1)
 空间复杂度：get:O(n),put:O(n), n为capacity容量
+### [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+#### 思路
+迭代：注意指针的翻转对应。
+#### 代码
+```js
+var reverseList = function(head) {
+    if (!head || !head.next) return head;
+    let pre = null;
+    let cur = head;
+    while (cur) {
+        let next = cur.next;
+        cur.next = pre;
+        pre = cur;
+        cur = next;
+    }
+    return pre;
+};
+```
+#### 复杂度
+时间复杂度：O(n)
+空间复杂度：O(1)
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
