@@ -28,5 +28,6 @@ var reverseBetween = function(head, m, n) {
         node = next;
     }
     cur.next.next = node;
-
+    cur.next = pre_node;
+    return pre.next;
 };

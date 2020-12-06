@@ -205,13 +205,27 @@ var maxSatisfied = function(customers, grumpy, X) {
 #### 复杂度
 时间复杂度：O()
 空间复杂度：O()
-### []()
+### [78. 子集](https://leetcode-cn.com/problems/subsets/)
 #### 思路
-
+回溯法：使用DFS
 #### 代码
 ```js
-
+var subsets = function(nums) {
+    let res = [];
+    const dfs = (index, list) => {
+        if (index === nums.length) {
+            res.push(list.slice());
+            return;
+        }
+        list.push(nums[index]);
+        dfs(index + 1, list);
+        list.pop();
+        dfs(index + 1, list);
+    }
+    dfs(0, []);
+    return res;
+};
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(2^n)
+空间复杂度：O(2^n)
