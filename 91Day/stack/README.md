@@ -168,3 +168,31 @@ MyQueue.prototype.empty = function() {
 #### 复杂度
 时间复杂度：O(n)，n为栈中元素的个数<br/>
 空间复杂度：O(n),开辟了新的栈数组空间
+### [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+#### 思路
+使用栈的思想，遍历字符串，当前字符为左括号时，就入栈，为右括号时，首先判断栈是否为空，
+如果为空，则不会匹配，返回false，如果不为空，则获取栈顶字符，判断栈顶字符和当前的右
+括号是否匹配，如果匹配，则让其出栈，如果不匹配，则返回false。
+#### 代码
+```js
+var isValid = function(s) {
+    let stack = [];
+    for (let i = 0; i < s.length; i++) {
+        if (s[i] === '(' || s[i] === '{' || s[i] === '[') {
+            stack.push(s[i]);
+        } else {
+            if (stack.length === 0) return false;
+            const top = stack[stack.length - 1];
+            if (top === '(' && s[i] === ')' || top === '{' && s[i] === '}' || top === '[' && s[i] === ']') {
+                stack.pop();
+            } else {
+                return false;
+            }
+        }
+    }
+    return stack.length === 0;
+};
+```
+#### 复杂度
+时间复杂度：O(n)
+空间复杂度：O(n)
