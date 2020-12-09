@@ -196,3 +196,67 @@ var isValid = function(s) {
 #### 复杂度
 时间复杂度：O(n)
 空间复杂度：O(n)
+### [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+#### 思路
+定义两个数组，用数组模拟栈，在队尾添加元素的时候，首先判断stack2中是否有值，如果有的话，需要先遍历将stack2中的元素出栈并入栈到stack1中，然后再在stack1中添加值；
+在队头删除值的时候，首先判断stack1中是否有值，如果有则先遍历将stack1中的元素出栈并入栈到stack2中，然后stack2出栈，返回删除元素，如果没有的话，则返回-1
+#### 代码
+```js
+var CQueue = function() {
+    this.stack1 = [];
+    this.stack2 = [];
+};
+
+/**
+ * @param {number} value
+ * @return {void}
+ */
+CQueue.prototype.appendTail = function(value) {
+    while (this.stack2.length) {
+        this.stack1.push(this.stack2.pop());
+    }
+    this.stack1.push(value);
+};
+
+/**
+ * @return {number}
+ */
+CQueue.prototype.deleteHead = function() {
+    while(this.stack1.length) {
+        this.stack2.push(this.stack1.pop());
+    }
+    if (!this.stack2.length && !this.stack1.length) return -1;
+    let res = this.stack2.pop();
+    return res;
+};
+
+/**
+ * Your CQueue object will be instantiated and called as such:
+ * var obj = new CQueue()
+ * obj.appendTail(value)
+ * var param_2 = obj.deleteHead()
+ */
+```
+#### 复杂度
+时间复杂度：O(n)
+空间复杂度：O(n)
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
+### []()
+#### 思路
+
+#### 代码
+```js
+
+```
+#### 复杂度
+时间复杂度：O()
+空间复杂度：O()
