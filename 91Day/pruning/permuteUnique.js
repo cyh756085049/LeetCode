@@ -1,10 +1,3 @@
-# LeetCode
-每日算法题及笔试面试手撕算法题整理
-### []()
-#### 思路
-
-#### 代码
-```js
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -38,7 +31,3 @@ function dfs(arr, nums, res) {
 }
 
 console.log(permuteUnique([1,2,3]));
-```
-#### 复杂度
-时间复杂度：O()
-空间复杂度：O()

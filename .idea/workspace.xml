@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/91Day/union/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91Day/union/makeConnected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/pruning/combinationSum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/pruning/permuteUnique.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91Day/tree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/91Day/tree/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="$PROJECT_DIR$/webCode/faceCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.makeConnected.js">
+  <component name="RunManager" selected="Node.js.permuteUnique.js">
     <configuration name="climbStairs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/dp/climbStairs.js" working-dir="$PROJECT_DIR$/91Day/dp">
       <method v="2" />
     </configuration>
@@ -73,7 +74,7 @@
     <configuration name="makeConnected.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/union/makeConnected.js" working-dir="$PROJECT_DIR$/91Day/union">
       <method v="2" />
     </configuration>
-    <configuration name="maxSlidingWindow.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/maxSlidingWindow.js" working-dir="$PROJECT_DIR$/91Day/array">
+    <configuration name="permuteUnique.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/pruning/permuteUnique.js" working-dir="$PROJECT_DIR$/91Day/pruning">
       <method v="2" />
     </configuration>
     <configuration name="subsets.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/subsets.js" working-dir="$PROJECT_DIR$/91Day/array">
@@ -81,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.permuteUnique.js" />
         <item itemvalue="Node.js.makeConnected.js" />
         <item itemvalue="Node.js.isValid.js" />
         <item itemvalue="Node.js.climbStairs.js" />
         <item itemvalue="Node.js.subsets.js" />
-        <item itemvalue="Node.js.maxSlidingWindow.js" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,9 @@
       <workItem from="1607517241508" duration="1128000" />
       <workItem from="1607787160189" duration="564000" />
       <workItem from="1607953207941" duration="126000" />
-      <workItem from="1608124410177" duration="2450000" />
+      <workItem from="1608124410177" duration="2488000" />
+      <workItem from="1608392985233" duration="710000" />
+      <workItem from="1608558074432" duration="786000" />
     </task>
     <servers />
   </component>
@@ -161,30 +164,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="763" height="112" key="GridCell.Tab.0.bottom" timestamp="1608126113908">
+    <state width="763" height="246" key="GridCell.Tab.0.bottom" timestamp="1608127088011">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604332151777" />
     <state width="699" height="270" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="763" height="112" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1608126113908" />
-    <state width="763" height="112" key="GridCell.Tab.0.center" timestamp="1608126113907">
+    <state width="763" height="246" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1608127088011" />
+    <state width="763" height="246" key="GridCell.Tab.0.center" timestamp="1608127088010">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
-    <state width="763" height="112" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1608126113907" />
-    <state width="763" height="112" key="GridCell.Tab.0.left" timestamp="1608126113907">
+    <state width="763" height="246" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1608127088010" />
+    <state width="763" height="246" key="GridCell.Tab.0.left" timestamp="1608127088010">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604332151775" />
     <state width="699" height="270" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
-    <state width="763" height="112" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1608126113907" />
-    <state width="763" height="112" key="GridCell.Tab.0.right" timestamp="1608126113908">
+    <state width="763" height="246" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1608127088010" />
+    <state width="763" height="246" key="GridCell.Tab.0.right" timestamp="1608127088011">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="763" height="112" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1608126113908" />
+    <state width="763" height="246" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1608127088011" />
     <state width="542" height="368" key="GridCell.Tab.1.bottom" timestamp="1607445269866">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
@@ -249,10 +252,10 @@
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state x="60" y="25" width="761" height="810" key="dock-window-1/0.25.1440.829@0.25.1440.829" timestamp="1607043887703" />
-    <state x="824" y="178" width="670" height="676" key="search.everywhere.popup" timestamp="1607517953433">
+    <state x="824" y="178" width="670" height="676" key="search.everywhere.popup" timestamp="1608393564883">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
-    <state x="824" y="178" width="670" height="676" key="search.everywhere.popup/0.25.1440.829@0.25.1440.829" timestamp="1607517953433" />
+    <state x="824" y="178" width="670" height="676" key="search.everywhere.popup/0.25.1440.829@0.25.1440.829" timestamp="1608393564883" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

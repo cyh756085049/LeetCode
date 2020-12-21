@@ -157,11 +157,35 @@ var findBottomLeftValue = function(root) {
 
 ### []()
 #### 思路
-
+递归回溯+剪枝
 #### 代码
 ```js
-
+/**
+ * @param {number[]} candidates
+ * @param {number} target
+ * @return {number[][]}
+ */
+var combinationSum = function(candidates, target) {
+    let n = candidates.length;
+    let res = [];
+    let tmpPath = [];
+    candidates = candidates.sort((a,b) => {return a - b})
+    let backtrack = (tmpPath,target,start) => {
+        if(target == 0){
+            res.push(tmpPath);
+            return;
+        }
+        for(let i = start;i < n;i++){
+            if(target < candidates[i]) break;
+            tmpPath.push(candidates[i]);
+            backtrack(tmpPath.slice(),target - candidates[i],i);
+            tmpPath.pop();
+        }
+    }
+    backtrack(tmpPath,target,0);
+    return res;
+};
 ```
 #### 复杂度
-时间复杂度：O()
-空间复杂度：O()
+时间复杂度：O(n*2^n）
+空间复杂度：O(target)
