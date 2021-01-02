@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/91Day/heap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91Day/heap/notGreaterCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/binary-search/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/binary-search/isBadVersion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/binary-search/mySqrt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +64,7 @@
       <recent name="$PROJECT_DIR$/webCode/faceCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.permuteUnique.js">
+  <component name="RunManager" selected="Node.js.mySqrt.js">
     <configuration name="climbStairs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/dp/climbStairs.js" working-dir="$PROJECT_DIR$/91Day/dp">
       <method v="2" />
     </configuration>
@@ -73,19 +74,19 @@
     <configuration name="makeConnected.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/union/makeConnected.js" working-dir="$PROJECT_DIR$/91Day/union">
       <method v="2" />
     </configuration>
-    <configuration name="permuteUnique.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/pruning/permuteUnique.js" working-dir="$PROJECT_DIR$/91Day/pruning">
+    <configuration name="mySqrt.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/binary-search/mySqrt.js" working-dir="$PROJECT_DIR$/91Day/binary-search">
       <method v="2" />
     </configuration>
-    <configuration name="subsets.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/array/subsets.js" working-dir="$PROJECT_DIR$/91Day/array">
+    <configuration name="permuteUnique.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/pruning/permuteUnique.js" working-dir="$PROJECT_DIR$/91Day/pruning">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.mySqrt.js" />
         <item itemvalue="Node.js.permuteUnique.js" />
         <item itemvalue="Node.js.makeConnected.js" />
         <item itemvalue="Node.js.isValid.js" />
         <item itemvalue="Node.js.climbStairs.js" />
-        <item itemvalue="Node.js.subsets.js" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,8 @@
       <workItem from="1608392985233" duration="710000" />
       <workItem from="1608558074432" duration="1030000" />
       <workItem from="1608820035715" duration="585000" />
-      <workItem from="1609163158999" duration="1478000" />
+      <workItem from="1609163158999" duration="1855000" />
+      <workItem from="1609590411740" duration="4632000" />
     </task>
     <servers />
   </component>
@@ -165,29 +167,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="763" height="246" key="GridCell.Tab.0.bottom" timestamp="1608559114741">
-      <screen x="0" y="25" width="1440" height="829" />
+    <state width="763" height="246" key="GridCell.Tab.0.bottom" timestamp="1609595663823">
+      <screen x="0" y="25" width="1394" height="875" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604332151777" />
     <state width="699" height="270" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
+    <state width="763" height="246" key="GridCell.Tab.0.bottom/0.25.1394.875@0.25.1394.875" timestamp="1609595663823" />
     <state width="763" height="246" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1608559114741" />
-    <state width="763" height="246" key="GridCell.Tab.0.center" timestamp="1608559114741">
-      <screen x="0" y="25" width="1440" height="829" />
+    <state width="763" height="246" key="GridCell.Tab.0.center" timestamp="1609595663822">
+      <screen x="0" y="25" width="1394" height="875" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
+    <state width="763" height="246" key="GridCell.Tab.0.center/0.25.1394.875@0.25.1394.875" timestamp="1609595663822" />
     <state width="763" height="246" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1608559114741" />
-    <state width="763" height="246" key="GridCell.Tab.0.left" timestamp="1608559114740">
-      <screen x="0" y="25" width="1440" height="829" />
+    <state width="763" height="246" key="GridCell.Tab.0.left" timestamp="1609595663822">
+      <screen x="0" y="25" width="1394" height="875" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604332151775" />
     <state width="699" height="270" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
+    <state width="763" height="246" key="GridCell.Tab.0.left/0.25.1394.875@0.25.1394.875" timestamp="1609595663822" />
     <state width="763" height="246" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1608559114740" />
-    <state width="763" height="246" key="GridCell.Tab.0.right" timestamp="1608559114741">
-      <screen x="0" y="25" width="1440" height="829" />
+    <state width="763" height="246" key="GridCell.Tab.0.right" timestamp="1609595663823">
+      <screen x="0" y="25" width="1394" height="875" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
+    <state width="763" height="246" key="GridCell.Tab.0.right/0.25.1394.875@0.25.1394.875" timestamp="1609595663823" />
     <state width="763" height="246" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1608559114741" />
     <state width="542" height="368" key="GridCell.Tab.1.bottom" timestamp="1607445269866">
       <screen x="0" y="25" width="1440" height="829" />
