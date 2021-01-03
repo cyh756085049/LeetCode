@@ -58,3 +58,25 @@ var solution = function(isBadVersion) {
 #### 复杂度
 时间复杂度：O(logn)
 空间复杂度：O(1)
+
+### [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+#### 思路
+二分查找：比较nums[mid]与nums[mid + 1]的大小，如果出现nums[mid] > nums[mid + 1]， 峰值在左侧，反之峰值在右侧
+#### 代码
+```js
+var findPeakElement = function(nums) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+        let mid = Math.floor(left + (right - left) / 2);
+        if (nums[mid] < nums[mid + 1]) {
+            left = mid + 1;
+        } else {
+            right = mid - 1;
+        }
+    }
+    return left;
+};
+```
+#### 复杂度
+时间复杂度：O(logn)
+空间复杂度：O(1)
