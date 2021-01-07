@@ -13,7 +13,7 @@ var maxVowels = function(s, k) {
             if (vowels[s[i]]) count++;
         } else {
             if (vowels[s[i]]) count++;
-            if (vowels[s[i]]) count--;
+            if (vowels[s[i - k]]) count--;
         }
         i++;
         max = Math.max(max, count);
