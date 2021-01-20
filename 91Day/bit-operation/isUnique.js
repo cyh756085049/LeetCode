@@ -7,3 +7,5 @@ const isUnique = function(str) {
     }
     return true
 }
+
+console.log(isUnique("leetcode"));

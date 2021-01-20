@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ab11db-0f09-4b88-b1af-3e4f566b76b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/91Day/bit-operation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91Day/bit-operation/isUnique.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/backpack/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91Day/backpack/canPartition.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91Day/bit-operation/isUnique.js" beforeDir="false" afterPath="$PROJECT_DIR$/91Day/bit-operation/isUnique.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +64,11 @@
       <recent name="$PROJECT_DIR$/webCode/faceCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.maxVowels.js">
-    <configuration name="findPeakElement.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/binary-search/findPeakElement.js" working-dir="$PROJECT_DIR$/91Day/binary-search">
+  <component name="RunManager" selected="Node.js.canPartition.js">
+    <configuration name="canPartition.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/backpack/canPartition.js" working-dir="$PROJECT_DIR$/91Day/backpack">
       <method v="2" />
     </configuration>
-    <configuration name="makeConnected.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/union/makeConnected.js" working-dir="$PROJECT_DIR$/91Day/union">
+    <configuration name="findPeakElement.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/binary-search/findPeakElement.js" working-dir="$PROJECT_DIR$/91Day/binary-search">
       <method v="2" />
     </configuration>
     <configuration name="maxVowels.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/sliding-window/maxVowels.js" working-dir="$PROJECT_DIR$/91Day/sliding-window">
@@ -81,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.canPartition.js" />
         <item itemvalue="Node.js.maxVowels.js" />
         <item itemvalue="Node.js.findPeakElement.js" />
         <item itemvalue="Node.js.mySqrt.js" />
         <item itemvalue="Node.js.permuteUnique.js" />
-        <item itemvalue="Node.js.makeConnected.js" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +153,8 @@
       <workItem from="1609773781869" duration="778000" />
       <workItem from="1610031666245" duration="1842000" />
       <workItem from="1610033739778" duration="15000" />
-      <workItem from="1610466318414" duration="644000" />
+      <workItem from="1610466318414" duration="1129000" />
+      <workItem from="1611156807131" duration="1055000" />
     </task>
     <servers />
   </component>
@@ -172,94 +174,94 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="675" height="246" key="GridCell.Tab.0.bottom" timestamp="1610033520041">
+    <state width="1007" height="247" key="GridCell.Tab.0.bottom" timestamp="1611157816412">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604332151777" />
     <state width="699" height="270" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
     <state width="888" height="246" key="GridCell.Tab.0.bottom/0.25.1394.875@0.25.1394.875" timestamp="1609686124141" />
-    <state width="675" height="246" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1610033520041" />
-    <state width="675" height="246" key="GridCell.Tab.0.center" timestamp="1610033520040">
+    <state width="1007" height="247" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1611157816412" />
+    <state width="1007" height="247" key="GridCell.Tab.0.center" timestamp="1611157816411">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
     <state width="888" height="246" key="GridCell.Tab.0.center/0.25.1394.875@0.25.1394.875" timestamp="1609686124140" />
-    <state width="675" height="246" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1610033520040" />
-    <state width="675" height="246" key="GridCell.Tab.0.left" timestamp="1610033520040">
+    <state width="1007" height="247" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1611157816411" />
+    <state width="1007" height="247" key="GridCell.Tab.0.left" timestamp="1611157816411">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604332151775" />
     <state width="699" height="270" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
     <state width="888" height="246" key="GridCell.Tab.0.left/0.25.1394.875@0.25.1394.875" timestamp="1609686124140" />
-    <state width="675" height="246" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1610033520040" />
-    <state width="675" height="246" key="GridCell.Tab.0.right" timestamp="1610033520041">
+    <state width="1007" height="247" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1611157816411" />
+    <state width="1007" height="247" key="GridCell.Tab.0.right" timestamp="1611157816412">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
     <state width="699" height="270" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
     <state width="888" height="246" key="GridCell.Tab.0.right/0.25.1394.875@0.25.1394.875" timestamp="1609686124141" />
-    <state width="675" height="246" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1610033520041" />
-    <state width="542" height="368" key="GridCell.Tab.1.bottom" timestamp="1607445269866">
+    <state width="1007" height="247" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1611157816412" />
+    <state width="554" height="247" key="GridCell.Tab.1.bottom" timestamp="1611157532139">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="542" height="368" key="GridCell.Tab.1.bottom/0.25.1440.829@0.25.1440.829" timestamp="1607445269866" />
-    <state width="542" height="368" key="GridCell.Tab.1.center" timestamp="1607445269865">
+    <state width="554" height="247" key="GridCell.Tab.1.bottom/0.25.1440.829@0.25.1440.829" timestamp="1611157532139" />
+    <state width="554" height="247" key="GridCell.Tab.1.center" timestamp="1611157532138">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="542" height="368" key="GridCell.Tab.1.center/0.25.1440.829@0.25.1440.829" timestamp="1607445269865" />
-    <state width="542" height="368" key="GridCell.Tab.1.left" timestamp="1607445269865">
+    <state width="554" height="247" key="GridCell.Tab.1.center/0.25.1440.829@0.25.1440.829" timestamp="1611157532138" />
+    <state width="554" height="247" key="GridCell.Tab.1.left" timestamp="1611157532137">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="542" height="368" key="GridCell.Tab.1.left/0.25.1440.829@0.25.1440.829" timestamp="1607445269865" />
-    <state width="542" height="368" key="GridCell.Tab.1.right" timestamp="1607445269866">
+    <state width="554" height="247" key="GridCell.Tab.1.left/0.25.1440.829@0.25.1440.829" timestamp="1611157532137" />
+    <state width="554" height="247" key="GridCell.Tab.1.right" timestamp="1611157532138">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="542" height="368" key="GridCell.Tab.1.right/0.25.1440.829@0.25.1440.829" timestamp="1607445269866" />
-    <state width="542" height="368" key="GridCell.Tab.2.bottom" timestamp="1607445269866">
+    <state width="554" height="247" key="GridCell.Tab.1.right/0.25.1440.829@0.25.1440.829" timestamp="1611157532138" />
+    <state width="675" height="247" key="GridCell.Tab.2.bottom" timestamp="1610467517652">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.2.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="542" height="368" key="GridCell.Tab.2.bottom/0.25.1440.829@0.25.1440.829" timestamp="1607445269866" />
-    <state width="542" height="368" key="GridCell.Tab.2.center" timestamp="1607445269866">
+    <state width="675" height="247" key="GridCell.Tab.2.bottom/0.25.1440.829@0.25.1440.829" timestamp="1610467517652" />
+    <state width="675" height="247" key="GridCell.Tab.2.center" timestamp="1610467517652">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.2.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="542" height="368" key="GridCell.Tab.2.center/0.25.1440.829@0.25.1440.829" timestamp="1607445269866" />
-    <state width="542" height="368" key="GridCell.Tab.2.left" timestamp="1607445269866">
+    <state width="675" height="247" key="GridCell.Tab.2.center/0.25.1440.829@0.25.1440.829" timestamp="1610467517652" />
+    <state width="675" height="247" key="GridCell.Tab.2.left" timestamp="1610467517652">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.2.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="542" height="368" key="GridCell.Tab.2.left/0.25.1440.829@0.25.1440.829" timestamp="1607445269866" />
-    <state width="542" height="368" key="GridCell.Tab.2.right" timestamp="1607445269866">
+    <state width="675" height="247" key="GridCell.Tab.2.left/0.25.1440.829@0.25.1440.829" timestamp="1610467517652" />
+    <state width="675" height="247" key="GridCell.Tab.2.right" timestamp="1610467517652">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.2.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="542" height="368" key="GridCell.Tab.2.right/0.25.1440.829@0.25.1440.829" timestamp="1607445269866" />
-    <state width="542" height="368" key="GridCell.Tab.3.bottom" timestamp="1607445269867">
+    <state width="675" height="247" key="GridCell.Tab.2.right/0.25.1440.829@0.25.1440.829" timestamp="1610467517652" />
+    <state width="675" height="247" key="GridCell.Tab.3.bottom" timestamp="1610467517653">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.3.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973882" />
-    <state width="542" height="368" key="GridCell.Tab.3.bottom/0.25.1440.829@0.25.1440.829" timestamp="1607445269867" />
-    <state width="542" height="368" key="GridCell.Tab.3.center" timestamp="1607445269867">
+    <state width="675" height="247" key="GridCell.Tab.3.bottom/0.25.1440.829@0.25.1440.829" timestamp="1610467517653" />
+    <state width="675" height="247" key="GridCell.Tab.3.center" timestamp="1610467517652">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.3.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973882" />
-    <state width="542" height="368" key="GridCell.Tab.3.center/0.25.1440.829@0.25.1440.829" timestamp="1607445269867" />
-    <state width="542" height="368" key="GridCell.Tab.3.left" timestamp="1607445269866">
+    <state width="675" height="247" key="GridCell.Tab.3.center/0.25.1440.829@0.25.1440.829" timestamp="1610467517652" />
+    <state width="675" height="247" key="GridCell.Tab.3.left" timestamp="1610467517652">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.3.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="542" height="368" key="GridCell.Tab.3.left/0.25.1440.829@0.25.1440.829" timestamp="1607445269866" />
-    <state width="542" height="368" key="GridCell.Tab.3.right" timestamp="1607445269867">
+    <state width="675" height="247" key="GridCell.Tab.3.left/0.25.1440.829@0.25.1440.829" timestamp="1610467517652" />
+    <state width="675" height="247" key="GridCell.Tab.3.right" timestamp="1610467517652">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
     <state width="699" height="270" key="GridCell.Tab.3.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973882" />
-    <state width="542" height="368" key="GridCell.Tab.3.right/0.25.1440.829@0.25.1440.829" timestamp="1607445269867" />
+    <state width="675" height="247" key="GridCell.Tab.3.right/0.25.1440.829@0.25.1440.829" timestamp="1610467517652" />
     <state x="60" y="25" width="761" height="810" key="dock-window-1" timestamp="1607043887703">
       <screen x="0" y="25" width="1440" height="829" />
     </state>
@@ -341,6 +343,46 @@
           <url>file://$PROJECT_DIR$/91Day/stack/isValid.js</url>
           <line>16</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/91Day/bit-operation/isUnique.js</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/91Day/bit-operation/isUnique.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
