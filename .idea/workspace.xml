@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -36,52 +39,63 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1jYEap1OzGhpKqinnFFHOuD166n" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webCode/faceCode" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webCode/faceCode" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hot100/stack" />
+      <recent name="$PROJECT_DIR$/hot100/tree" />
+      <recent name="$PROJECT_DIR$/hot100/matrix" />
+      <recent name="$PROJECT_DIR$/hot100/array" />
+      <recent name="$PROJECT_DIR$/hot100/substring" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.canPartition.js">
-    <configuration name="canPartition.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/backpack/canPartition.js" working-dir="$PROJECT_DIR$/91Day/backpack">
+  <component name="RunManager" selected="Node.js.P139_workBreak.js">
+    <configuration name="P139_workBreak.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hot100/dp/P139_workBreak.js" working-dir="$PROJECT_DIR$/hot100/dp">
       <method v="2" />
     </configuration>
-    <configuration name="findPeakElement.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/binary-search/findPeakElement.js" working-dir="$PROJECT_DIR$/91Day/binary-search">
+    <configuration name="P198_rob.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hot100/dp/P198_rob.js" working-dir="$PROJECT_DIR$/hot100/dp">
       <method v="2" />
     </configuration>
-    <configuration name="maxVowels.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/sliding-window/maxVowels.js" working-dir="$PROJECT_DIR$/91Day/sliding-window">
+    <configuration name="P279_numSquares.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hot100/dp/P279_numSquares.js" working-dir="$PROJECT_DIR$/hot100/dp">
       <method v="2" />
     </configuration>
-    <configuration name="mySqrt.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/binary-search/mySqrt.js" working-dir="$PROJECT_DIR$/91Day/binary-search">
+    <configuration name="P322_coinChange.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hot100/dp/P322_coinChange.js" working-dir="$PROJECT_DIR$/hot100/dp">
       <method v="2" />
     </configuration>
-    <configuration name="permuteUnique.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/91Day/pruning/permuteUnique.js" working-dir="$PROJECT_DIR$/91Day/pruning">
+    <configuration name="P75_sortColors.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/hot100/other/P75_sortColors.js" working-dir="$PROJECT_DIR$/hot100/other">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.canPartition.js" />
-        <item itemvalue="Node.js.maxVowels.js" />
-        <item itemvalue="Node.js.findPeakElement.js" />
-        <item itemvalue="Node.js.mySqrt.js" />
-        <item itemvalue="Node.js.permuteUnique.js" />
+        <item itemvalue="Node.js.P139_workBreak.js" />
+        <item itemvalue="Node.js.P322_coinChange.js" />
+        <item itemvalue="Node.js.P279_numSquares.js" />
+        <item itemvalue="Node.js.P198_rob.js" />
+        <item itemvalue="Node.js.P75_sortColors.js" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +164,12 @@
       <workItem from="1610033739778" duration="15000" />
       <workItem from="1610466318414" duration="1129000" />
       <workItem from="1611156807131" duration="1294000" />
+      <workItem from="1682169991615" duration="888000" />
+      <workItem from="1682520156684" duration="2741000" />
+      <workItem from="1685151733389" duration="610000" />
+      <workItem from="1685189632408" duration="6703000" />
+      <workItem from="1685320325882" duration="38506000" />
+      <workItem from="1686749150243" duration="11590000" />
     </task>
     <servers />
   </component>
@@ -166,105 +186,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1007" height="247" key="GridCell.Tab.0.bottom" timestamp="1611158107515">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="1419" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604332151777" />
-    <state width="699" height="270" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="888" height="246" key="GridCell.Tab.0.bottom/0.25.1394.875@0.25.1394.875" timestamp="1609686124141" />
-    <state width="1007" height="247" key="GridCell.Tab.0.bottom/0.25.1440.829@0.25.1440.829" timestamp="1611158107515" />
-    <state width="1007" height="247" key="GridCell.Tab.0.center" timestamp="1611158107514">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="1419" height="217" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
-    <state width="699" height="270" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
-    <state width="888" height="246" key="GridCell.Tab.0.center/0.25.1394.875@0.25.1394.875" timestamp="1609686124140" />
-    <state width="1007" height="247" key="GridCell.Tab.0.center/0.25.1440.829@0.25.1440.829" timestamp="1611158107514" />
-    <state width="1007" height="247" key="GridCell.Tab.0.left" timestamp="1611158107514">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="1419" height="217" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604332151775" />
-    <state width="699" height="270" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973879" />
-    <state width="888" height="246" key="GridCell.Tab.0.left/0.25.1394.875@0.25.1394.875" timestamp="1609686124140" />
-    <state width="1007" height="247" key="GridCell.Tab.0.left/0.25.1440.829@0.25.1440.829" timestamp="1611158107514" />
-    <state width="1007" height="247" key="GridCell.Tab.0.right" timestamp="1611158107514">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="1419" height="217" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604332151776" />
-    <state width="699" height="270" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="888" height="246" key="GridCell.Tab.0.right/0.25.1394.875@0.25.1394.875" timestamp="1609686124141" />
-    <state width="1007" height="247" key="GridCell.Tab.0.right/0.25.1440.829@0.25.1440.829" timestamp="1611158107514" />
-    <state width="1007" height="247" key="GridCell.Tab.1.bottom" timestamp="1611158107515">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="1007" height="247" key="GridCell.Tab.1.bottom/0.25.1440.829@0.25.1440.829" timestamp="1611158107515" />
-    <state width="1007" height="247" key="GridCell.Tab.1.center" timestamp="1611158107515">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="1007" height="247" key="GridCell.Tab.1.center/0.25.1440.829@0.25.1440.829" timestamp="1611158107515" />
-    <state width="1007" height="247" key="GridCell.Tab.1.left" timestamp="1611158107515">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="1007" height="247" key="GridCell.Tab.1.left/0.25.1440.829@0.25.1440.829" timestamp="1611158107515" />
-    <state width="1007" height="247" key="GridCell.Tab.1.right" timestamp="1611158107515">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973880" />
-    <state width="1007" height="247" key="GridCell.Tab.1.right/0.25.1440.829@0.25.1440.829" timestamp="1611158107515" />
-    <state width="1007" height="247" key="GridCell.Tab.2.bottom" timestamp="1611158107516">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.2.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="1007" height="247" key="GridCell.Tab.2.bottom/0.25.1440.829@0.25.1440.829" timestamp="1611158107516" />
-    <state width="1007" height="247" key="GridCell.Tab.2.center" timestamp="1611158107516">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.2.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="1007" height="247" key="GridCell.Tab.2.center/0.25.1440.829@0.25.1440.829" timestamp="1611158107516" />
-    <state width="1007" height="247" key="GridCell.Tab.2.left" timestamp="1611158107516">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.2.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="1007" height="247" key="GridCell.Tab.2.left/0.25.1440.829@0.25.1440.829" timestamp="1611158107516" />
-    <state width="1007" height="247" key="GridCell.Tab.2.right" timestamp="1611158107516">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.2.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="1007" height="247" key="GridCell.Tab.2.right/0.25.1440.829@0.25.1440.829" timestamp="1611158107516" />
-    <state width="1007" height="247" key="GridCell.Tab.3.bottom" timestamp="1611158107517">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.3.bottom/0.23.1440.837@0.23.1440.837" timestamp="1604417973882" />
-    <state width="1007" height="247" key="GridCell.Tab.3.bottom/0.25.1440.829@0.25.1440.829" timestamp="1611158107517" />
-    <state width="1007" height="247" key="GridCell.Tab.3.center" timestamp="1611158107517">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.3.center/0.23.1440.837@0.23.1440.837" timestamp="1604417973882" />
-    <state width="1007" height="247" key="GridCell.Tab.3.center/0.25.1440.829@0.25.1440.829" timestamp="1611158107517" />
-    <state width="1007" height="247" key="GridCell.Tab.3.left" timestamp="1611158107516">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.3.left/0.23.1440.837@0.23.1440.837" timestamp="1604417973881" />
-    <state width="1007" height="247" key="GridCell.Tab.3.left/0.25.1440.829@0.25.1440.829" timestamp="1611158107516" />
-    <state width="1007" height="247" key="GridCell.Tab.3.right" timestamp="1611158107517">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state width="699" height="270" key="GridCell.Tab.3.right/0.23.1440.837@0.23.1440.837" timestamp="1604417973882" />
-    <state width="1007" height="247" key="GridCell.Tab.3.right/0.25.1440.829@0.25.1440.829" timestamp="1611158107517" />
-    <state x="60" y="25" width="761" height="810" key="dock-window-1" timestamp="1607043887703">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state x="60" y="25" width="761" height="810" key="dock-window-1/0.25.1440.829@0.25.1440.829" timestamp="1607043887703" />
-    <state x="824" y="178" width="670" height="676" key="search.everywhere.popup" timestamp="1608393564883">
-      <screen x="0" y="25" width="1440" height="829" />
-    </state>
-    <state x="824" y="178" width="670" height="676" key="search.everywhere.popup/0.25.1440.829@0.25.1440.829" timestamp="1608393564883" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -352,32 +273,260 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
           <line>8</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
           <line>10</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/91Day/backpack/canPartition.js</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/p454_fourSumCount.js</url>
+          <line>25</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P16_threeSum.js</url>
+          <line>50</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P16_threeSum.js</url>
+          <line>10</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P152_maxProduct.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P152_maxProduct.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/hashmap/P128_longestConsecutive.js</url>
+          <line>36</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P283_moveZeros.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P283_moveZeros.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P283_moveZeros.js</url>
+          <line>14</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/leetcode/P283_moveZeros.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P108_sortedArrayToBST.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P108_sortedArrayToBST.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P108_sortedArrayToBST.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P108_sortedArrayToBST.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P108_sortedArrayToBST.js</url>
+          <line>28</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P108_sortedArrayToBST.js</url>
+          <line>19</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P108_sortedArrayToBST.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>36</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>27</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>56</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>22</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/tree/P124_maxPathSum.js</url>
+          <line>23</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/list_node/P138_copyRandomList.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/binary_search/P35_searchInsert.js</url>
+          <line>33</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/binary_search/P35_searchInsert.js</url>
+          <line>43</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/stack/P739_dailyTemperatures.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/stack/P739_dailyTemperatures.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/stack/P739_dailyTemperatures.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/heap/P215_findKthLargest.js</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/heap/P215_findKthLargest.js</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/heap/P215_findKthLargest.js</url>
+          <line>43</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/heap/P215_findKthLargest.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/heap/P215_findKthLargest.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/heap/P215_findKthLargest.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/heap/P215_findKthLargest.js</url>
+          <line>39</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/other/P75_sortColors.js</url>
+          <line>42</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/other/P75_sortColors.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/other/P75_sortColors.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/other/P75_sortColors.js</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/other/P75_sortColors.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/hot100/other/P75_sortColors.js</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
