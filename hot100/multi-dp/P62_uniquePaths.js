@@ -7,15 +7,15 @@
  * @param n
  */
 const uniquePaths = (m, n) => {
-    // 状态定义：dp[i][j] 表示机器人从坐标（i，j）到右下角移动总共有多少条不同的路径
+    // 状态定义：dp[i][j] 表示机器人从左上角到坐标（i，j）的不同路径条数
     const dp = new Array(m).fill().map(_ => new Array(n));
 
     // 状态初始化
-    // 从左到右，初始化第一行
+    // 从上到下，初始化第一列
     for (let i = 0; i < m; i++) {
         dp[i][0] = 1;
     }
-    // 从上到下，初始化第一列
+    // 从左到右，初始化第一行
     for (let j = 0; j < n; j++) {
         dp[0][j] = 1;
     }
