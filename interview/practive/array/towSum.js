@@ -3,6 +3,7 @@
  * 在该数组nums 中找出 和为目标值 target 的那两个整数，并返回它们的数组下标。
  *
  * 思路：哈希表
+ * 时间复杂度 O(n) 空间复杂度 O(n)
  * @param nums 数组
  * @param target 目标值
  */
