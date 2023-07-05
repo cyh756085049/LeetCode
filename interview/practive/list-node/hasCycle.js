@@ -3,6 +3,11 @@ function ListNode(val, next) {
     this.next = next === undefined ? null : next;
 }
 
+/**
+ * leetcode141：判断一个链表是否有环
+ * @param head
+ * @returns {boolean}
+ */
 // 标志法
 // 时间复杂度 O(n) 空间复杂度 O(n)
 const hasCycle = (head) => {
