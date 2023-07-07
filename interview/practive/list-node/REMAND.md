@@ -4,3 +4,7 @@
 * [leetcode206：反转链表](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/list-node/reverseList.js)
 * [leetcode876：链表的中间结点](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/list-node/middleNode.js)
 * [leetcode19：删除链表的倒数第 N 个结点](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/list-node/removeNthFromEnd.js)
+* [leetcode160：两个单链表的相交结点](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/list-node/getIntersectionNode.js)
+* [leetcode611：有效三角形的个数]()
+* [链表求和]()
+* [leetcode42：接雨水问题]()

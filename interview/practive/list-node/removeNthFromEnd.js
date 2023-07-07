@@ -23,7 +23,7 @@ const removeNthFromEnd = (head, n) => {
         n--;
     }
 
-    // 快指针先走 n - 1 步
+    // 快指针先走 n + 1 步
     fast = fast.next;
 
     while (fast) {
