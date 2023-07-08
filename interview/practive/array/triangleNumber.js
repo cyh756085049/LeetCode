@@ -2,7 +2,7 @@
  * 611. 有效三角形的个数 https://leetcode.cn/problems/valid-triangle-number/
  * 题解：https://github.com/sisterAn/JavaScript-Algorithms/issues/93
  * 思路：排序 + 双指针
- * 复杂度：时间复杂度O() 空间复杂度O()
+ * 复杂度：时间复杂度O(n^2) 空间复杂度O(n)
  * @param nums
  */
 const triangleNumber = (nums) => {

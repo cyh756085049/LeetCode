@@ -7,3 +7,4 @@
 * [leetcode349：求两个数组的交集/并集/差集](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/array/intersection.js)
 * [leetcode146：设计和实现一个LRU（最近最少使用）缓存机制](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/array/LRUCache.js)
 * [编写一个函数计算多个数组的交集](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/array/moreIntersection.js)
+* [leetcode611：有效三角形的个数](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/list-node/triangleNumber.js)
