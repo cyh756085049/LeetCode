@@ -6,36 +6,21 @@
  * @param nums2
  */
 const addStrings = (nums1, nums2) => {
-    let num1Length = nums1.length, num2Length = nums2.length;
-    let res = '';
-    // 保存进位
-    let carry = 0;
-
-    while (num1Length || num2Length) {
-        if (num1Length) {
-            num1Length--;
-            carry += +nums1[num1Length];
-        }
-
-        if (num2Length) {
-            num2Length--;
-            carry += +nums2[num2Length];
-        }
-
-        res = carry % 10 + res;
-        if (carry > 9) {
-            carry = 1;
-        } else {
-            carry = 0;
-        }
+    let i = num1.length - 1,
+        j = num2.length - 1,
+        carry = 0,
+        result = '';
+    while (i >= 0 || j >= 0) {
+        let n1 = i >= 0 ? +num1[i] : 0;
+        let n2 = j >= 0 ? +num2[j] : 0;
+        let tmp = n1 + n2 + carry;
+        carry = tmp >= 10 ? 1 : 0;
+        result = (tmp % 10) + result;
+        i--;
+        j--
     }
-
-    if (carry) {
-        res = res + 1;
-    }
-
-    return res;
+    return carry ? carry + result : result;
 }
 
-const num1 = "11", num2 = "123";
+const num1 = "1", num2 = "9";
 console.log('字符串相加', addStrings(num1, num2));
