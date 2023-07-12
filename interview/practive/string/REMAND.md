@@ -5,3 +5,4 @@
 * [leetcode3. 无重复字符的最长子串【字节】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/string/lengthOfLongSubstring.js)
 * [leetcode415. 字符串相加【facebook、字节、腾讯、哔哩哔哩】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/string/addStrings.js)
 * [leetcode43. 字符串相乘【腾讯】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/string/multiply.js)
+* [leetcode8. 字符串转换整数 (atoi)【腾讯】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/string/myAtoi.js)
