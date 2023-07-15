@@ -1,5 +1,7 @@
 /**
  * 1209. 删除字符串中的所有相邻重复项 II https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string-ii/
+ * 题解：https://github.com/sisterAn/JavaScript-Algorithms/issues/27
+ * 复杂度：时间复杂度O(n) 空间复杂度O(n)
  * @param s
  * @param k
  */

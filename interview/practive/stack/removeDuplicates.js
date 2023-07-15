@@ -1,7 +1,7 @@
 /**
  * 1047. 删除字符串中的所有相邻重复项 https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/description/
  * 题解：https://github.com/sisterAn/JavaScript-Algorithms/issues/26
- * 复杂度：
+ * 复杂度：时间复杂度O(n) 空间复杂度O(n)
  * @param s
  */
 const removeDuplicates = (s) => {
