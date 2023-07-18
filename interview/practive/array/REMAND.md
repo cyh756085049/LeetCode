@@ -9,3 +9,4 @@
 * [编写一个函数计算多个数组的交集](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/array/moreIntersection.js)
 * [leetcode611：有效三角形的个数【腾讯】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/array/triangleNumber.js)
 * [leetcode42：接雨水问题](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/array/trap.js)
+* [leetcode380：O(1) 时间插入、删除和获取随机元素【字节】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/array/randomizedSet.js)
