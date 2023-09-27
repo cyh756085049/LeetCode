@@ -4,6 +4,12 @@ function TreeNode(left, right, val) {
     this.right = right === undefined ? null : right;
 }
 
+/**
+ * 102. 二叉树的层序遍历 https://leetcode.cn/problems/binary-tree-level-order-traversal/description/
+ * 队列实现 广度优先遍历
+ * @param root
+ * @return {*[]}
+ */
 const levelorderTraversal = (root) => {
     let results = [];
     if (!root) {
