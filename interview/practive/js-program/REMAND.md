@@ -325,7 +325,7 @@ const getType = (obj) => {
   console.log('含有对象类型的数组去重：', removeDuplicates(newArr)); // [123, {a: 1}, a: {b: 1}, {a: "1"}, "meili", {a: 1, b: 2}]
 ```
 
-### 3、[实现一个`findIndex` 函数【字节、腾讯】](https://github.com/sisterAn/JavaScript-Algorithms/issues/137)
+### 3、[实现一个`findIndex` 函数【字节、腾讯、网易、美团】](https://github.com/sisterAn/JavaScript-Algorithms/issues/137)
 找到有序数组 [1, 2, 3, 4, 7, 7, 7, 9, 12, 23, 34, 45, 55, 67]中第一次出现的位置，比如7第一次出现的位置是4.
 ```js
 const findIndex = (nums, target) => {
@@ -430,3 +430,24 @@ console.log('在排序数组中查找目标元素的第一个位置：', searchR
 console.log('在排序数组中查找目标元素的第一个位置：', searchRange(nums1, target1));
 ```
 
+### 4、[模拟实现 `Array.prototype.splice` 【字节】](https://github.com/sisterAn/JavaScript-Algorithms/issues/138)
+
+### 5、[实现一个 `add` 方法](https://github.com/sisterAn/JavaScript-Algorithms/issues/103)
+例如如下示例：
+```js
+add(1)(2,3)(4).value() // 10
+```
+实现如下：
+```js
+const add = (...args) => {
+    const _add = (...newArgs) => {
+        return add(...args, ...newArgs);
+    }
+
+    _add.value = () => args.reduce((previousValue, currentValue) => previousValue + currentValue);
+
+    return _add;
+}
+
+console.log(add(1)(2,3)(4).value());
+```
