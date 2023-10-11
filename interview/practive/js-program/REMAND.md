@@ -437,7 +437,7 @@ console.log('在排序数组中查找目标元素的第一个位置：', searchR
 ```js
 add(1)(2,3)(4).value() // 10
 ```
-实现如下：
+考验闭包，实现如下：
 ```js
 const add = (...args) => {
     const _add = (...newArgs) => {
