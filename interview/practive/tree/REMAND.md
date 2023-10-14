@@ -12,3 +12,4 @@
 * [101. 对称二叉树【剑指offer】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/tree/isSymmetric.js)
 * [求二叉树中两个指定节点间的最短距离【字节】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/tree/shortestDistance.js)
 * [230. 二叉搜索树中第K小的元素【腾讯】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/tree/kthSmallest.js)
+* [226. 翻转二叉树【美团】](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/tree/invertTree.js)
