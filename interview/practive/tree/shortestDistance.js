@@ -5,7 +5,7 @@ function TreeNode(val, left, right) {
 }
 
 /**
- * 给定一个二叉树, 找到该树中两个指定节点间的最短距离
+ * 给定一个二叉树, 找到该树中两个指定节点间的最短距离 https://github.com/sisterAn/JavaScript-Algorithms/issues/82
  * 思路：找到两个节点的公共祖先 -> 找到两个节点和公共祖先的路径长度 -> 计算两个路径的长度和即距离
  * @param root
  * @param p
