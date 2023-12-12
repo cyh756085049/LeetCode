@@ -5,3 +5,4 @@
 * [实现一个 `add` 方法](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/add/REMAND.md)
 * [模拟实现 `Array.prototype.splice`方法](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/splice/REMAND.md)
 * [模拟实现模板渲染](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/template/REMAND.md)
+* [模拟实现 `indexOf`](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/index-of/REMAND.md)
