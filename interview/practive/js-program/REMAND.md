@@ -9,4 +9,4 @@
 * [拆解 `URL` 参数中的 `queryString` 参数](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/query-string/REMAND.md)
 * [`promise`、`setTimeout`、`forEach` 共用情况分析](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/promise/REMAND.md)
 * [修改print函数，输出0 - 99](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/print/REMAND.md)
-* [实现 `createFlow` 异步串行函数](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/creat-flow/README.md)
+* [实现 `createFlow` 异步串行函数](https://github.com/cyh756085049/LeetCode/blob/main/interview/practive/js-program/create-flow/README.md)
