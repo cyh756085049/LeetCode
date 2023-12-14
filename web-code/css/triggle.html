@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css画三角形</title>
+</head>
+<style>
+    <!--  -->
+    .triggle {
+        width: 0;
+        height: 0;
+        /*上、左、右边框实现三角形*/
+        border-top: 100px solid red;
+        border-left: 100px dotted transparent;
+        border-right: 100px dotted transparent;
+        /*所有边框实现三角形*/
+        /*border-width: 100px;*/
+        /*!*transparent这个值在IE6下会显示成一个黑色, 把其他三条边框的样式改成点线，这样在IE6下就能显示透明了 *!*/
+        /*border-style: dotted dotted solid dotted;*/
+        /*border-color: transparent transparent red transparent;*/
+    }
+
+    .triggle-custom {
+        width: 0;
+        height: 0;
+        /*实现直角三角形*/
+        border-top: 100px solid red;
+        border-left: 0 dotted transparent;
+        border-right: 100px dotted transparent;
+    }
+</style>
+<body>
+    <div class="triggle"></div>
+    <div class="triggle-custom"></div>
+</body>
+</html>
